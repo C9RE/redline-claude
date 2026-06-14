@@ -69,7 +69,7 @@ def main():
             if peak >= URGENT else
             "Heads-up: Claude Code session usage is getting high")
     emit(
-        f"[Redline] {tone} — {'; '.join(windows)}. "
+        f"[Redline] {tone}. {'; '.join(windows)}. "
         "Tell the user plainly that you may run out before the task finishes, and "
         "offer to wrap up, checkpoint progress, or hand offloadable work to a delegate. "
         "Do not silently push on as if usage were unlimited."
