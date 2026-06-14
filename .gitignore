@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+redline-usage.json
+*.bak.*
